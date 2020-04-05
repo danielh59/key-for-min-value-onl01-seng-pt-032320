@@ -3,7 +3,6 @@
 new_hash = {"first_one" => 1, "the_second" => 2, "the_third" => 3}
 
 def key_for_min_value(name_hash)
-name_hash.sort
 name_hash.collect do |y|
   
   
